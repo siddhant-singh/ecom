@@ -1,0 +1,1 @@
+insert into users (id, name, email, password, first_name, last_name, birthday, gender ) values (3, 'sid', 'ssiddhansast3030@gmail.com', '123456789', 'siddhant', 'singh', '1995-09-30', 'Male');
