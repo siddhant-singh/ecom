@@ -2,7 +2,7 @@ create table products (
 	id BIGSERIAL NOT NULL PRIMARY KEY,
 	name VARCHAR(50) NOT NULL,
 	description  VARCHAR(50) NOT NULL,
-	price  VARCHAR(50) NOT NULL,
+	price  VARCHAR(50) NOT NULL
 );
 
 insert into products (id, name, description , price  ) values (1, 'Dodge', 'Ram Van 3500', '€2844325,69');
