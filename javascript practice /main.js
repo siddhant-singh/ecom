@@ -26,3 +26,24 @@
 // console.log('My name is ' + name + ' and I am ' + age);
 // Template string
 // console.log(`My name is ${name} and I am ${age}`);
+
+// const s = 'hello world';
+// console.log(s.length);
+// console.log(s.toUpperCase);
+// console.log(s.toLowerCase);
+
+// const s = 'technolody, cs, it, comp, mech';
+// console.log(s.split(','));
+
+// Arrays - Variable that holds multiple values
+
+const numbers = new Array(1, 2, 3, 4, 5);
+
+console.log(numbers);
+
+
+const veg = new Array(1, 'sasas', true);
+
+veg[3] = 'sdas';
+veg.push('asads');
+console.log(veg);
